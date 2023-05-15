@@ -1,0 +1,153 @@
+body {
+    margin:0;
+    background-color: white;
+    font-family: inter;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+header,main,footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header a {
+text-decoration: none;
+color: black;
+font-family: inter;
+align-items: center;
+}
+
+header p {
+    font-size: 45px;
+    margin: 0;
+    font-weight:bold;
+    font-family: inter;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    font-weight:normal;
+    font-family: inter;
+}
+
+header nav ul{
+    display: flex;
+    padding: 20px;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;  
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 100px;
+}
+
+header a:hover{
+    text-decoration: overline;
+}
+
+section.images img{
+    object-fit: cover;
+    width: 100%;
+}
+
+div.card {
+    display: grid;
+    columns: 2;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    gap: 0px;
+    }
+
+
+main img:hover{
+    filter: grayscale(0%);
+}
+
+
+
+
+section.text a{
+    color: grey;
+    text-decoration: none;
+    align-items: center;
+}
+
+section.text ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+div.text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+div.text2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+section.text a:hover{
+    color: black;
+    }
+
+
+    @media (max-width:600px) {
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+}
+
+
+
+footer ul{
+    display: flex;
+    padding: 20px;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;  
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    font-weight:normal;
+    font-family: inter;
+}
+
+footer a:hover{
+    text-decoration: overline;
+}
+
+footer p {
+    color: rgb(191, 191, 191);
+}
+
